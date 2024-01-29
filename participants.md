@@ -4,7 +4,7 @@ category: participants
 layout: default
 ---
 
-### Participants
+# Participants
 
 * FirstName LastName (UConn)
 * FirstName LastName (Brandeis)

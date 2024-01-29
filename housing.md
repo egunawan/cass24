@@ -4,7 +4,7 @@ category: housing
 layout: default
 ---
 
-### Housing and local information: 
+# Housing and local information: 
 
 All participants will stay at TBA, address TBA.
 Main Telephone: TBA | Fax: TBA

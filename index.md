@@ -36,7 +36,7 @@ Week_ | Date_| Day_ |  Assessment_| Topics
 ||W|| 11.2 part 1: intro series, geometric series, decimal expansion
 ||F|| quiz, 11.1 part 2 monotone convergence theorem, epsilon-N arguments
 |---
-
+{: rules="groups"}
 
 ## Schedule 
 
@@ -60,6 +60,7 @@ Time_ | Event_
 3:30-4:00 | Coffee (Monteith 401)
 |---
 4:00-5:00 | Discussion
+{: rules="groups"}
 
 <h3>Schedule:</h3>
 <blockquote>

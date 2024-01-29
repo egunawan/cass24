@@ -52,7 +52,5 @@ Time || Event
 |---
 |---
 3:30-4:00 || Coffee (Monteith 401)
-|---
-|---
 4:00-5:00 || Discussion
 {: rules="groups"}

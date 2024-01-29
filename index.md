@@ -26,7 +26,22 @@ document.write(today);
 </script>.
 
 
+Week_ | Date_| Day_ |  Assessment_| Topics 
+:---    |:--| ---
+1  |8/28 |M||setting the stage
+||W||11.1 sequences part 1 + sec 4.4 review + golden ratio
+||F|| warm-up quiz, 11.1 continued fraction + silver ratio, intro to geometric sequence
+|---
+2  |9/4 ||| No class - Labor Day
+||W|| 11.2 part 1: intro series, geometric series, decimal expansion
+||F|| quiz, 11.1 part 2 monotone convergence theorem, epsilon-N arguments
+|---
+
+
 ## Schedule 
+
+
+
 
 Time_ | Event_
 :---    |:--

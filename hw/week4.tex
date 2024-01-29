@@ -1,0 +1,187 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math 3250 Combinatorics, University of Connecticut
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Anything after a percent sign is a comment.
+
+% Necessary first line. \documentclass defines the type of document and some options (for example, try changing 12pt to 10pt.
+\documentclass[12pt]{amsart}
+\usepackage{enumerate} % to be able to enumerate a list using non-numbers
+\usepackage{tikz}
+%for hypertext references
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = red,
+            anchorcolor = green]{hyperref}
+
+
+% The part of the tex file between the \documentclass and \begin{document} line is called the preamble.  Things having to do with setting up the document are done in the preamble.  You will not need to mess with it for now, except to change your name and the title of your document. 
+% After adding your name next to author, head down to where it says "Start here"
+
+\title{Math3250 Combinatorics Week4 Problem Set}
+\author{your preferred first and last name}
+\date{}
+\begin{document}
+
+\maketitle
+
+% --------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------
+
+\noindent Credit: Write down everyone who helped you, including classmates who contributed to your thought process. Write down Bona's textbook and other written sources you used as well.
+
+\subsection*{Instruction}
+The exact problems will be announced on Monday during class. Please send me an invite via Overleaf. If you are not sure how to do something, please post on Piazza or come to office hour.
+
+\bigskip 
+
+\noindent \textbf{
+For practice, when you work on Problems \ref{sec:functions} - \ref{sec:combinatorics} below, please model your explanations after the the proofs for Theorem 3.6, Examples 3.7, 3.11, 3.12 in Sec 3.2; Theorems 3.16 in Sec 3.3. }
+
+
+%\section{6 digits numbers again (Optional)}
+%\begin{enumerate}
+%\item How many six-digit positive integers are there in which the first and last digits are the same? (For example, 134561)
+%\item How many six-digit positive integers start and end with an even digit? (For example, 234560)
+%\item How many six-digit positive integers are there in which the first and last digits are of the same parity? (For example, 134561)
+%\item How many six-digit positive integers are there in which all the digits are different?
+%\end{enumerate}
+%For practice, you can follow the style of the proofs for Theorem 3.6 and Example 3.7 in Section 3.2.
+
+
+
+\section{Functions}\label{sec:functions}
+Let $n$ be a positive integer.
+\begin{enumerate}
+\item How many injective functions are there from $[n]$ to $[n]$? 
+Uncomment for a hint:
+%See Section 3.1 permutations
+\item How many functions are there from $[n]$ to $[n]$ that are not injective?
+Uncomment for a hint:
+%Combine Theorem 3.6 (the number of $k$-digit strings over an $n$-element alphabet) and the solution to Example 3.11 (the bijection from the collection of subsets of $[n]$ onto the collection of $n$-digit binary strings.)
+\end{enumerate}
+
+
+\section{Interns}
+A local company has 8 interns from UConn and 12 interns from Eastern Connecticut State University (ECSU). The company would like to form a service committee consisting of the interns. 
+
+\begin{enumerate}
+\item How many ways are there to form this committee consisting of 2 UConn interns and 3 ECSU interns? 
+\item How many ways are there to form a 5-people committee that contains \emph{at least} one UConn student and one ECSU student?
+\end{enumerate}
+
+
+
+\section{Polygon diagonals}
+Let $n\geq 4$. Consider a convex $n$-gon that is drawn in such a way that no three diagonals intersect in one point. How many intersection points do the diagonals have? (For example, if you draw a pentagon, there are five diagonals and five crossings.) Prove this. 
+
+\noindent See hints by removing the percent sign: 
+%Whenever two diagonals cross, it counts as one intersection point. Draw some examples for $n=4,5$. Can you turn this into the problem of choosing $k$-subsets of $[n]$, as in Section 3.3 Choice Problems? 
+
+
+\section{Rooks}
+We would like to place $n$ rooks on an $n\times n$ chess board in such a way that no rook can attack. 
+In chess, a rook is only allowed to move horizontally or vertically, through any number of unoccupied squares. Please see \url{https://en.wikipedia.org/wiki/Rook_(chess)} for a demonstration. 
+In how many ways can we do this? 
+
+
+
+\section{Combinatorics class}\label{sec:combinatorics}
+A Combinatorics class consists of $n$ sophomores, $n$ juniors, and $n$ seniors.  For example, our class has 12 students. Pretend that we have exactly $4$ sophomores, $4$ juniors, and $4$ seniors. 
+
+\begin{enumerate}
+\item The students are to form $n$ presentation groups of three people each. How many ways can they do this if each group must contain a sophomore, a junior and a senior?
+\item The $n$ seniors are to form a circle. Two circle arrangements are considered identical if each person has the same left neighbor in the circles. How many ways can the $n$ seniors to form a circle? 
+ \end{enumerate}
+
+\bigskip
+
+\noindent 
+\textbf{
+For practice, when you work on Problems \ref{sec:sums} - \ref{sec:kMn} below, please model your explanations after the the proofs for Theorems 4.2, 4.3, 4.4, 4.5, 4.6, and 4.7 from Section 4.1.}
+
+\section{Sums}\label{sec:sums}
+Let $n$ be a positive integer. Prove that the identities 
+\[
+\sum_{k=0}^n 2^k {n \choose k} (-1)^{n-k} = 1 \qquad \text{ and } \qquad
+\sum_{k=0}^n 2^k {n \choose k} = 3^n
+\]
+hold. 
+
+\noindent See hints by removing the percent sign:
+%Read the proofs of Theorem 4.2 and Theorem 4.4 on page 74. A similar idea should work.
+
+
+
+
+\section{Inequality}
+Let $n$ be a positive integer larger than $1$. Prove that 
+\[
+2^n < {2n \choose n} < 4^n
+\]
+\bigskip
+
+Additional problem (Optional): Let $k$ be an integer where $2 \leq k < n$. Show that the inequality 
+\[
+k^n < {kn \choose n}
+\]
+holds.
+
+\noindent See hints by removing the percent sign: 
+%\begin{itemize} \item What objects are counted by ${2n \choose n}$? See the definition in Sec 3.3 Choice Problems and also the proofs given in Sec 4.1. \item What objects are counted by $2^n$? See Example 3.11 in Sec 3.2. \item For inspirations, please read the combinatorial proofs given for the identities in Sec 4.1 for Theorem 4.3, Theorem 4.4, Theorem 4.5, and Theorem 4.6. \end{itemize}
+
+
+
+
+\section{An identity - please omit this problem}\label{sec:identity}
+Let $n \geq 2$ be an integer.
+Show that 
+\[
+\sum_{j=1}^n j^2 {n \choose j} = n (n+1) 2^{n-2}.
+\]
+
+
+
+\noindent See hints by removing the percent sign:
+%Read the proofs of Theorem 4.6 on page 76. Then do an optional warm-up for a problem very similar to Theorem 4.6: Show that $\displaystyle \sum_{j=2}^n j(j-1) {n \choose j} = n (n-1) 2^{n-2}. $
+
+
+
+\section{A more complicated identity - please omit this problem}
+Let $k$ and $n$ be positive integers such that $k < n$. 
+Show that 
+\[
+\sum_{j=k}^n {j \choose k } {n \choose j} =  {n \choose k} 2^{n-k}.
+\]
+
+\noindent See hints by removing the percent sign:
+%Read the proofs of Theorem 4.6 on page 76, then do Problem \ref{sec:identity}. This problem is a variation of Problem \ref{sec:identity}. 
+
+
+
+\section{kMn}\label{sec:kMn}
+Let $k, M, n$ be nonnegative integers such that $k+M \leq n$.
+Prove that 
+\[
+{n \choose M}  {n-M \choose k} = 
+{n \choose k}  {n-k \choose M} 
+\]
+
+
+
+
+
+\section{Write Your Own Problem}\label{sec:write_your_own}
+Please write your own problem and solve it using theorems or concepts from Chapter 3 or Section 4.1 of Bona. Student's problems may be chosen for future exams' questions. Test your problem by sharing it with another person who likes math. 
+
+
+
+\section{Miscellaneous}
+\begin{enumerate}[i.]
+    \item Share your work (at least one problem) and thought process with at least one classmate. Ask them to share their thought process as well. Write down their names and briefly summarize your interactions. A virtual discussion via Piazza or email is fine if you don't have time to interact in person. 
+    \item Approximately how much time did you spend on this homework?
+\end{enumerate}
+
+\end{document}

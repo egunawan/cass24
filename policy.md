@@ -1,0 +1,30 @@
+---
+title: Policy Statements
+category: default
+layout: default
+---
+
+# Policy Statements
+
+
+<h4>policy statements.</h4>
+<p>Please refer to <a href="http://provost.uconn.edu/syllabi-references/">http://provost.uconn.edu/syllabi-references/</a> for the common policies we follow at UConn.</p>
+<ul>
+<li><a class="external" href="http://catalog.uconn.edu/academic-regulations/grade-information/#exam-absence">Absences from Final Examinations</a></li>
+<li><a class="external" href="http://catalog.uconn.edu/academic-regulations/grade-information/#attendance">Class Attendance</a></li>
+<li><a class="external" href="http://policy.uconn.edu/2012/08/22/credit-hour/">Credit Hour</a></li>
+<li><a class="external" href="http://policy.uconn.edu/2011/05/24/people-with-disabilities-policy-statement/">People with Disabilities, Policy Statement</a></li>
+<li><a class="external" href="http://policy.uconn.edu/2013/08/07/policy-against-discrimination-harassment-and-inappropriate-romantic-relationships/" target="_blank" rel="noopener noreferrer">Discrimination, Harassment and Related Interpersonal Violence, Policy Against</a></li>
+<li><a class="external" href="http://community.uconn.edu/the-student-code-preamble/">The Student Code</a></li>
+<li><a class="external" href="http://community.uconn.edu/academic-misconduct-procedure-review/">Academic Misconduct Procedures for Instructors</a></li>
+</ul>
+<ul>
+<li><strong>Policy Against Discrimination, Harassment and Related Interpersonal Violence<br />
+</strong>The University is committed to maintaining an environment free of discrimination or discriminatory harassment directed toward any person or group within its community – students, employees, or visitors. Academic and professional excellence can flourish only when each member of our community is assured an atmosphere of mutual respect. All members of the University community are responsible for the maintenance of an academic and work environment in which people are free to learn and work without fear of discrimination or discriminatory harassment. In addition, inappropriate amorous relationships can undermine the University’s mission when those in positions of authority abuse or appear to abuse their authority. To that end, and in accordance with federal and state law, the University prohibits discrimination and discriminatory harassment, as well as inappropriate amorous relationships, and such behavior will be met with appropriate disciplinary action, up to and including dismissal from the University. Additionally, to protect the campus community, all non-confidential University employees (including faculty) are required to report sexual assaults, intimate partner violence, and/or stalking involving a student that they witness or are told about to the Office of Institutional Equity. The University takes all reports with the utmost seriousness. Please be aware that while the information you provide will remain private, it will not be confidential and will be shared with University officials who can help. More information is available at <a href="http://equity.uconn.edu/">equity.uconn.edu</a> and <a href="http://titleix.uconn.edu/">titleix.uconn.edu</a>.</li>
+<li><strong>Statement on Absences from Class Due to Religious Observances and Extra-Curricular Activities<br />
+</strong>Faculty and instructors are expected to reasonably accommodate individual religious practices unless doing so would result in fundamental alteration of class objectives or undue hardship to the University’s legitimate business purposes. Such accommodations may include rescheduling an exam or giving a make-up exam, allowing a presentation to be made on a different date or assigning the student appropriate make-up work that is intrinsically no more difficult than the original assignment. Faculty and instructors are strongly encouraged to allow students to complete work missed due to participation in extra-curricular activities that enrich their experience, support their scholarly development, and benefit the university community. Examples include participation in scholarly presentations, performing arts, and intercollegiate sports, when the participation is at the request of, or coordinated by, a University official. Students should be encouraged to review the course syllabus at the beginning of the semester for potential conflicts and promptly notify their instructor of any anticipated accommodation needs. Students are responsible for making arrangements in advance to make up missed work.For conflicts with final examinations, students should contact the Dean of Students Office. Faculty and instructors are also encouraged to respond when the Counseling Program for Intercollegiate Athletes (CPIA) requests student progress reports. This will enable the counselors to give our students appropriate advice.</li>
+<li><strong>Students with Disabilities<br />
+</strong>The University of Connecticut is committed to protecting the rights of individuals with disabilities and assuring that the learning environment is accessible. If you anticipate or experience physical or academic barriers based on disability or pregnancy, please let me know immediately so that we can discuss options. Students who require accommodations should contact the Center for Students with Disabilities, Wilbur Cross Building Room 204, <a href="tel:8604862020">(860) 486-2020</a> or <a href="http://csd.uconn.edu/">http://csd.uconn.edu/</a>.</li>
+<li><strong>Emergency Preparedness<br />
+</strong>In case of inclement weather, a natural disaster, or a campus emergency, the University communicates through email and text message. Students are encouraged to sign up for alerts through http://alert.uconn.edu. Students should be aware of emergency procedures, and further information is available through the Office of Emergency Management at <a href="http://publicsafety.uconn.edu/emergency/">http://publicsafety.uconn.edu/emergency/</a>.</li>
+</ul>

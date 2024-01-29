@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math 3250 Combinatorics, University of Connecticut
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Anything after a percent sign is a comment.
+
+% Necessary first line. \documentclass defines the type of document and some options (for example, try changing the font size (10pt or 11pt or 12pt).
+\documentclass[11pt]{amsart}
+\usepackage{enumerate} % to be able to enumerate a list using non-numbers
+\usepackage{tikz}
+%for hypertext references
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = red,
+            anchorcolor = green]{hyperref}
+
+
+\usepackage[letterpaper]{geometry} 
+\geometry{tmargin=0.5in,bmargin=0.0in,lmargin=0.50in,rmargin=0.50in}
+\voffset -0.3in
+
+% The part of the tex file between the \documentclass and \begin{document} line is called the preamble.  Things having to do with setting up the document are done in the preamble.  You will not need to mess with it for now, except to change your name and the title of your document. 
+% After adding your name next to author, head down to where it says "Start here"
+
+\title{Math3250 Combinatorics Reading HW 13}
+%\author{your preferred first and last name:}
+%\date{}
+\begin{document}
+
+\maketitle
+
+% --------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------
+
+%\noindent Credit: 
+%Write down everyone who helped you, including classmates who contributed to your thought process. Write down Bona's textbook and other written sources you used as well.
+
+\subsection*{Instruction}
+
+\begin{itemize}
+\item Do all exercises. 
+Submit your homework by email (subject: Math3250 Combinatorics Reading HW 13). 
+\item Your answers don't require math symbols beyond letters and numbers, so you can type your answers in the body of an email or in a word editor.
+\item 
+You can also complete by hand (then scan using your smart phone to produce a PDF file) or use \LaTeX. 
+\item
+Ref: textbook \emph{Combinatorics and Graph Theory} by Harris, Hirst, and Mossinghoff (HHM) Sec 1.1.3, 1.2.1 and 
+ B\'ona's ``A Walk through Combinatorics" textbook, Chapter 9
+\end{itemize}
+
+
+
+
+
+
+\section{Watch or read: HHM Sec 1.1.3 Special types of graphs}
+
+Do one of the following:
+\begin{enumerate}[i.]
+	\item Watch the lecture video of Sec 1.1.3 Special types of graphs
+	\item Read only the parts highlighted in color  \href{https://egunawan.github.io/combinatorics/notes/notes1_1_3special_types_of_graphs.pdf}{lecture notes for Sec 1.1.3 video}
+\end{enumerate}
+
+\begin{itemize}
+\item 
+Write down which option you did. If you watched the video, specify Kaltura/YouTube and type of device.
+
+\item 
+I edited this video to play at higher speed. Should I keep the videos at the original (slower) speed?  
+\end{itemize}
+
+
+\section{Exercises related to HHM Sec 1.1.3 Special types of graphs}
+
+
+\begin{enumerate}[a.]
+\item 
+(For the sake of practice)
+Give a proof for Claim 2 in the Theorem 1.3: for a vertex $v$ of $G$, no two vertices in the set 
+\[
+Y:=\{ x \in V(G) \mid \text{a shortest part from } x \text{ to } v \text{ has odd length}\}
+\]
+ are adjacent. 
+
+
+\item 
+(i) What down the definition of a regular graph. 
+(ii) Prove: 
+If the complete bipartite $K_{r,s}$ is regular, then $r=s$.
+
+\item
+Let $G$ be a connected graph with $22$ edges. If $G$ is \emph{regular}, how many vertices can $G$ have? 
+See Bona Ch 9: Exercise 12, p. 220 for a sketch of a solution.
+
+
+
+
+
+\item
+Show that the following statement is false (by providing a counterexample): Two graphs which have the same degree sequence must be isomorphic. See HHM Sec 1.1.3, p. 17: Exercise 9 or 10, or Bona Ch 9: Exercise 21.
+
+
+
+\item 
+HHM Sec 1.1.3, p.17: Exercise 10
+(isomorphic/non-isomorphic)
+
+\item 
+Prove that there are more than $6600$ pairwise non-isomorphic graphs with vertex set $\{ 1,2,3,4,5,6,7,8\}$.
+See Bona Ch 9: Exercise 9, p. 220 for a sketch of a solution.
+
+
+
+
+\end{enumerate}
+
+
+
+
+\section{Watch or read: HHM Sec 1.2.1  Distance in graphs: radius and diameter}
+
+Do one of the following:
+\begin{enumerate}[i.]
+	\item Watch the lecture video of Sec 1.2 Distance of graphs, only up to the definition of radius and diameter. 
+	\item Read only the parts highlighted in color  \href{https://egunawan.github.io/combinatorics/notes/notes1_2distance_in_graphs.pdf}{lecture notes for Sec 1.2 video} up to the definition of radius and diameter.
+\end{enumerate}
+
+\begin{itemize}
+	\item 
+	Write down which option you did. If you watched the video, specify Kaltura/YouTube and type of device.
+	
+	\item 
+	I edited the video to play at higher speed. Should I keep the video at the original (slower) speed?  
+\end{itemize}
+
+
+
+
+
+
+\section{Radius and diameter exercises, from Sec 1.2.1}
+Write the definition of radius \& diameter of a graph. 
+Then find the radius and diameter of the following graphs: 
+\begin{enumerate}[A.]
+\item 
+the path graph $P_{2k}$ and 
+ $P_{2k+1}$
+\item 
+the cycle graph $C_{2k+1}$ and $C_{2k+1}$
+\item 
+the complete bipartite graph $K_{m,n}$
+\item  
+the complete graph $K_{n}$
+\end{enumerate}
+
+\section{Presentations}
+\begin{itemize}
+\item Pick several exercises (of out the ten listed above), and prepare to explain them during class meeting.
+\item Make sure to tell me your preferences ahead of time (to save time)
+\end{itemize}
+
+It's fine (and maybe better for you) if you pick questions that you don't feel 100\% about.
+
+
+\end{document}

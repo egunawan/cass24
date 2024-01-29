@@ -1,0 +1,133 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math 3250 Combinatorics, University of Connecticut
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Anything after a percent sign is a comment.
+
+% Necessary first line. \documentclass defines the type of document and some options (for example, try changing 12pt to 10pt.
+\documentclass[11pt]{amsart}
+\usepackage{enumerate} % to be able to enumerate a list using non-numbers
+\usepackage{tikz}
+
+\usepackage[letterpaper]{geometry} 
+\geometry{tmargin=0.63in,bmargin=-0.0in,lmargin=1.30in,rmargin=1.30in}
+\voffset -0.5in
+
+%for hypertext references
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = red,
+            anchorcolor = green]{hyperref}
+            
+
+
+% The part of the tex file between the \documentclass and \begin{document} line is called the preamble.  Things having to do with setting up the document are done in the preamble.  You will not need to mess with it for now, except to change your name and the title of your document. 
+% After adding your name next to author, head down to where it says "Start here"
+
+
+\begin{document}
+
+\begin{Large}
+\textbf{Math3250 Combinatorics Problems Week 5}
+\end{Large}
+% --------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------
+
+
+
+
+\noindent 
+\textbf{
+For the sake of learning the tools of Section 4.1, when you work on Problems \ref{sec:sums} - \ref{sec:kMn} below, please model your explanations after the the proofs for Theorems 4.2, 4.3, 4.4, 4.5, 4.6, and 4.7 from Section 4.1.}
+
+\section{Sums}\label{sec:sums}
+Let $n$ be a positive integer. Prove that the identities 
+\[
+\sum_{k=0}^n 2^k {n \choose k} (-1)^{n-k} = 1 \qquad \text{ and } \qquad
+\sum_{k=0}^n 2^k {n \choose k} = 3^n
+\]
+hold. 
+
+\noindent 
+Hint: Read the proofs of Thm 4.2 and Thm 4.4 on page 74. A similar idea should work.
+
+
+
+
+\section{Inequality}
+Let $n$ be a positive integer larger than $1$. Prove that 
+\[
+2^n < {2n \choose n} < 4^n.
+\]
+
+
+
+\noindent Hints: 
+\begin{itemize} \item What objects are counted by $\binom{2n}{n}$? See the definition in Sec 3.3 Choice Problems and also the proofs given in Sec 4.1. \item What objects are counted by $2^n$? See Example 3.11 in Sec 3.2. \item What objects are counted by $4^n$? Would it be helpful to write $4^n$ as $2^{2n}$? \item For inspirations, please read the combinatorial proofs given for the identities in Sec 4.1 for Theorem 4.3, Theorem 4.4, Theorem 4.5, and Theorem 4.6. \end{itemize}
+
+
+\bigskip
+
+\noindent 
+(Optional) Attempt to prove a generalization of above: Let $k$ be an integer where $2 \leq k < n$. Show that the inequality 
+\[
+k^n < {kn \choose n} ~~~\text{holds.}
+\]
+
+
+
+
+
+\section{An identity}\label{sec:identity_thm4.6}
+Read the proofs of Theorem 4.6 on page 76. Then use a similar method to the first proof (the combinatorial proof) to show that 
+\[
+\displaystyle \sum_{j=2}^n j(j-1) {n \choose j} = n (n-1) 2^{n-2}. 
+\]
+
+
+
+\section{A more challenging identity}\label{sec:identity}
+
+Let $n \geq 2$ be an integer.
+Show that 
+\[
+\sum_{j=1}^n j^2 {n \choose j} = n (n+1) 2^{n-2}.
+\]
+Give a combinatorial proof and also a proof using the Binomial Theorem (see Thm 4.6). 
+
+
+
+\section{Yet another identity}
+Let $k$ and $n$ be positive integers such that $k < n$. 
+Show that 
+\[
+\sum_{j=k}^n {j \choose k } {n \choose j} =  {n \choose k} 2^{n-k}.
+\]
+
+
+
+
+
+\section{kMn}\label{sec:kMn}
+Let $k, M, n$ be nonnegative integers such that $k+M \leq n$.
+Give a combinatorial proof that  the equality 
+\[
+{n \choose M}  {n-M \choose k} = 
+{n \choose k}  {n-k \choose M} 
+\]
+holds.
+
+
+
+
+
+%\section{Write Your Own Problem}\label{sec:write_your_own}
+%Please write your own problem and solve it using theorems or concepts from Chapter 3 or Section 4.1 of Bona. Student's problems may be chosen for future exams' questions. Test your problem by sharing it with another person who likes math. 
+
+
+
+
+
+\end{document}

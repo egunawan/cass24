@@ -1,0 +1,278 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math 3250 Combinatorics, University of Connecticut
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Anything after a percent sign is a comment.
+
+% Necessary first line. \documentclass defines the type of document and some options (for example, try changing the font size (10pt or 11pt or 12pt).
+\documentclass[12pt, oneside]{amsart}
+\usepackage{enumerate} % to be able to enumerate a list using non-numbers
+\usepackage{tikz}
+%for hypertext references
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = red,
+            anchorcolor = green]{hyperref}
+
+
+\usepackage[letterpaper]{geometry} % from 2016
+\geometry{tmargin=0.8in,bmargin=0.2in,lmargin=1.30in,rmargin=1.30in}
+\voffset -0.3in
+
+% The part of the tex file between the \documentclass and \begin{document} line is called the preamble.  Things having to do with setting up the document are done in the preamble.  You will not need to mess with it for now, except to change your name and the title of your document. 
+% After adding your name next to author, head down to where it says "Start here"
+
+\title{Math3250 Portfolio Problems 2}
+%\author{}
+\begin{document}
+
+
+
+\section*{Cover Sheet (Math3250 Combinatorics)}
+Your Names: NAMES
+
+\vfill 
+
+Assignment: Portfolio Problems 2
+
+\vfill 
+
+\bigskip
+In this class, you are encouraged to discuss the problems with anyone. You are also allowed to use any resources as long as you cite them.
+
+Please cite the individuals and documents that have helped you in completing this assignment. 
+The individuals cited should include all classmates with whom you have collaborated (even if they only act as a sounding board by listening to you during class group work).
+Documents cited should include B\'ona's textbook and all web content you have consulted.
+\\
+
+
+Individuals:
+
+\vfill
+\vfill
+
+Documents:
+
+\vfill
+\vfill
+
+\newpage
+
+
+\maketitle
+
+% --------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------
+
+Complete at least five of the following sections (the last section counts as one).
+
+\subsection*{Overleaf Setup}
+To upload this template file, you can first download it to your local machine and then upload it (by clicking the upload button on the top left).
+Alternatively, you can create a new blank file (click on the button shaped like paper on the top left), name it ``main.tex", then copy and paste the content of this template file to ``main.tex".
+
+
+
+Reference Chapter 8 of  B\'ona's ``A Walk Through Combinatorics" textbook.
+
+\bigskip
+
+\tableofcontents
+
+
+\section{Sec 8.1.1: OGF from recurrence relation}
+Consider the sequence defined recursively by $r_0 = 3$, $r_1 = 4$, and $r_n = r_{n-1} + 6 r_{n-2}$, for $n  \geq 2$. 
+Find a closed form expression for the ordinary generating function $\displaystyle R(x)=\sum_{n=0}^\infty r_n x^n$ and use this to find a closed form expression for $r_n$ itself.
+
+\begin{proof}[Answer]
+Enter your answer here.
+\end{proof}
+
+
+
+
+\section{Sec 8.1.1: OGF Tower of Lucas}
+In the ``Tower of Hanoi" puzzle, you begin with a pyramid of $n$ disks stacked around a center pole, with the disks arranged from the largest diameter on the bottom to the smallest diameter on top. 
+There are also two empty poles that can accept disks. 
+The object of the puzzle is to move the entire stack of disks to one of the other poles, subject to three constraints:
+\begin{itemize}
+	\item Only one disk may be moved at a time. 
+	\item Disks can be placed only on one of the other three poles. 
+	\item A larger disk cannot be placed on a smaller one. 
+\end{itemize}
+Let  $a_0=0$ and let $a_n$ be the number of moves required to move the entire stack of $n$ disks to another pole. 
+
+\begin{enumerate}[a.]
+	\item Clearly, $a_1=1$.
+	To move $n$ disks, we must first move the $n-1$ top disks to one of the other poles, then move the bottom disk to the third pole, then move the stack of $n-1$ disks to that pole. Use this logic to write down a recurrence relation for $a_n$
+	%	\[a_n=2a_{n-1}+1 ~ \text{ for $n\geq 1$}. \]
+	
+	\item 
+	Compute the ordinary generating function (OGF) of $a_n$.
+\end{enumerate}
+
+\begin{proof}[Answer]
+	Enter your answer here.
+\end{proof}
+
+
+\section{Sec 8.2.1: 
+	EGF Harmonic}
+
+\begin{enumerate}[a.]
+	\item
+	Compute by hand the Taylor series for $\ln\left(\frac{1}{1-x}\right)$ centered at $0$. 
+	Read your Calculus textbook or watch lecture videos explaining this specific problem.\\
+	
+{\tiny \noindent Hints: 
+	 \begin{enumerate}[i.] \item Start with $\frac{1}{1-x}=\sum_{n=0}^\infty x^n$ \item Integrate both sides. Don't forget to compute  the constant ``C" has to be. \item Note that $\ln\left(\frac{1}{1-x}\right)=\ln(1)-\ln(1-x)$ \item Check your answer with a computing tool. \end{enumerate}
+ }
+
+	
+	\item
+	Let $h_1=0$  and \[h_{n+1}= (n+1) ~h_{n} + n! ~~ \text{ for all $n \geq 0$}. \]
+
+Let $H(x)=\sum_{n=1}^\infty h_n \frac{x^n}{n!}$ be the exponential generating function of $h_n$. Compute an explicit formula for the exponential generating function of $H(x)$.\\
+	
+		{\tiny \noindent Hints: }
+	\\ {\tiny Follow the examples of Section 8.2.1 Recurrence Relation and \emph{Exponential} Generating Function. \begin{enumerate}[i.] \item Multiply both sides of the recurrence relation by $x^{n+1}/(n+1)!$ and sum over all $n \geq 0$. \item Let $H(x)$ be the exponential generating function for $h_n$. Show that $H(x)= \frac{1}{1-x} \ln\left(\frac{1}{1-x}\right)$.  \end{enumerate}}
+	
+	
+	
+	\item 
+	Use the exponential generating function to prove the formula 
+	\begin{equation*}
+	h_n = n! \sum_{k=1}^n \frac{1}{k}.
+	\end{equation*}
+	
+	{\tiny \noindent Hints: 
+	 \begin{enumerate}[i.]  \item Write the product  $H(x)= \frac{1}{1-x} \cdot  \ln\left(\frac{1}{1-x}\right)$ as the product of two power series. \item Use Lemma 8.4  (\emph{ordinary} generating function) to write $H(x)$ as one power series.  \item The ``extra" $n!$ factor is because $H(x)=\sum_{n=1}^\infty h_n \frac{x^n}{n!}$. \end{enumerate}}
+	
+\end{enumerate}
+
+\begin{proof}[Answer]
+	\begin{enumerate}[a.]
+		\item The Taylor series for $\ln\left(\frac{1}{1-x}\right)$  is \begin{equation*}
+		\boxed{ \sum_{n=}^\infty ~ insert ~ x^n}
+		\end{equation*}
+		
+		\item 
+		An explicit formula for the exponential generating function is 
+		\begin{equation*}
+		\boxed{insert ~ formula ~ in ~ terms ~ of ~ x}.
+		\end{equation*}
+		
+		
+		\item
+		An explicit formula for $a_n$ is $\boxed{insert ~ formula ~ in ~ terms ~ of ~ n}$.
+	
+	\end{enumerate}
+\end{proof}
+
+
+
+\section{Sec 8.2.1: EGF 
+	Permutations
+}
+
+Let $d_0=1$. If $n \geq 1$, let $d_n$ be the number of bijections on $[n]$ such that, for all $i\in [n]$, it sends $i$ to another number $j\in [n]$. 
+For example, $d_1=0$, $d_2=1$, $d_3=2$.
+
+
+Then $d_n$ satisfies the recurrence (you are not asked to prove this) 
+\begin{equation}
+\label{eq:dn}
+d_n = n ~ d_{n-1} + (-1)^n \text{ for } n \geq 1.
+\end{equation}
+
+You should verify that the recurrence works for $n=1,2,3$.
+
+\begin{enumerate}[a.]
+	\item \label{item:permutation}
+	Use the recurrence relations (\ref{eq:dn}) to compute the \emph{exponential} generating function $\displaystyle D(x)=\sum_{n=0}^\infty d_n \frac{x^n}{n!}$ for $d_n$. 
+	
+	{\tiny (Hint: Follow the examples in Sec 8.2.1 Recurrence Relations and Exponential Generating Functions).}
+	
+	\item
+	Use generating function method and the previous part to prove that  
+	\[
+	d_n = n! \sum_{j=0}^n \frac{(-1)^j}{j!}
+	\]
+	
+	You should first verify that this formula works for $n=1,2,3$.
+	
+	
+{\tiny  \noindent Hints:
+	 \begin{enumerate}[i.] \item In part (\ref{item:permutation}), you've shown that $D(x)$ is equal to the product of two functions of $x$. Write this product as a product of two power series. \item Use Lemma 8.4 (\emph{ordinary} generating function) to write $D(x)$ as one power series. \end{enumerate}
+}
+	
+	
+\end{enumerate}
+
+\begin{proof}[Answer]
+	Enter your answer here.
+\end{proof}
+
+
+
+
+
+
+\section{Sec 8.2.2: EGF The product formula}
+Given a classroom with $n$ students ($n \geq 0$), 
+a teacher divides the students into three groups $A$, $B$, $C$ so that $A$ has an odd number of people and $B$ has an even number of people, and the number of people in $C$ is a multiple of three (note: groups can be empty). The teacher then asks each group to form a line. 
+
+Let $f_n$ be the number of ways to do this. 
+Find its exponential generating function $\displaystyle F(x) = \sum_{n=0}^\infty f_n ~ \frac{x^n}{n!}$.
+
+{\tiny \noindent Hints:
+\\This is very similar to Example 8.8 (pg 172) in Section 8.1.2 problem. Define three sequences, the number of ways line up $n$ people (if $n$ is odd), the number of ways to line up $n$ people (if $n$ is even), and the number of ways to line up $n$ people (if $n$ is a multiple of three). We have to use the \emph{exponential} (as opposed to ordinary) generating function product formula because a group is not an interval (unlike an interval of semester days). %Also look at Section 8.2.2. 
+}
+
+\begin{proof}[Answer]
+	Enter your answer here.
+\end{proof}
+
+
+
+
+
+
+
+
+\section{Sec 8.2.2: EGF the product formula}
+Let $f(n)$ be the number of ways to do the following. 
+There are n (distinguishable, off course) children in a classroom. 
+You give an odd number of the children either a red candy or a turquoise candy to eat. 
+I give an odd number of the children either a black marble, a purple marble, or a green marble. 
+The remaining children get nothing. (No child receives more than one item.) 
+
+For instance, f(1) = 0 (since there must be at least one child that gets a candy and at least one other child that gets a marble) and f(2) = 12 (two choices for which child gets a candy, two choices for the candy color, and three choices for the marble color). 
+
+\begin{enumerate}[a.]
+	\item Find a simple formula for the exponential generating function $F(x)=\sum_{n=0}^\infty f(n) \frac{x^n}{n!}$ not involving any summation symbols.
+	\item Find a simple formula for f(n) not involving any summation symbols.
+\end{enumerate}
+
+\begin{proof}[Answer]
+	Enter your answer here.
+\end{proof}
+
+
+
+\section{Collaboration, etc}
+\begin{enumerate}[i.]
+	\item Briefly share your group's work (at least one problem) with another group. Ask them to share their thought process as well. Write down their names and briefly summarize your interactions. An email discussion  is fine if you don't have time to interact virtually in real-time. 
+	 
+	\item Approximately how much time did you spend on this homework?
+	\item 
+	Comments and questions?
+\end{enumerate}
+
+\begin{proof}[Answer]
+	Enter your answers here.
+\end{proof}
+
+
+\end{document}

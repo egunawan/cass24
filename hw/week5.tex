@@ -1,0 +1,159 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Math 3250 Combinatorics, University of Connecticut
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Anything after a percent sign is a comment.
+
+% Necessary first line. \documentclass defines the type of document and some options (for example, try changing 12pt to 10pt.
+\documentclass[12pt]{amsart}
+\usepackage{enumerate} % to be able to enumerate a list using non-numbers
+\usepackage{tikz}
+%for hypertext references
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = red,
+            anchorcolor = green]{hyperref}
+
+
+% The part of the tex file between the \documentclass and \begin{document} line is called the preamble.  Things having to do with setting up the document are done in the preamble.  You will not need to mess with it for now, except to change your name and the title of your document. 
+% After adding your name next to author, head down to where it says "Start here"
+
+\title{Math3250 Combinatorics Week5 Problem Set}
+\author{The names of team members, in alphabetical order}
+\date{}
+\begin{document}
+
+\maketitle
+
+% --------------------------------------------------------
+%                         Start here
+% --------------------------------------------------------
+
+\noindent Credit: 
+
+\subsection*{Instruction}
+Create just one Overleaf project where all team members have edit permission. Complete all problems. 
+To submit, please send me an invite via Overleaf. 
+
+\bigskip 
+
+
+
+\section{An identity (pick one)}\label{sec:identity}
+Complete \textbf{one} of the following problems. 
+
+\begin{enumerate}[a.)]
+\item \label{itm:identity}
+Let $n \geq 2$ be an integer.
+Show that 
+\[
+\sum_{j=1}^n j^2 {n \choose j} = n (n+1) 2^{n-2}.
+\]
+
+
+\noindent See hints:
+%Try a combinatorial proof. See Section 4.1. Read the proofs of Theorem 4.6 on page 76, then do an optional warm-up for a problem very similar to Theorem 4.6: Show that \[\displaystyle \sum_{j=2}^n j(j-1) {n \choose j} = n (n-1) 2^{n-2}.\]
+
+\item 
+Let $k$ and $n$ be positive integers such that $k < n$. 
+Show that 
+\[
+\sum_{j=k}^n {j \choose k } {n \choose j} =  {n \choose k} 2^{n-k}.
+\]
+
+\noindent See hints:
+%See Section 4.1. Read the proofs of Theorem 4.6 on page 76, then do part (\ref{itm:identity}). This problem is a variation of part (\ref{itm:identity}). 
+
+\end{enumerate}
+
+
+
+\section{Integrate}
+Find an explicit (closed-form expression) formula for the expression
+\[
+\sum_{k=0}^n \frac{1}{k+1} {n \choose k} 5^{k+1}.
+\]
+
+See hints: 
+%See Section 4.1 binomial theorem. Expand $(1+x)^n$ using the binomial theorem, so that you have an equation with $(1+x)^n$ on the left-hand side and the expansion on the right-hand side. Integrate both sides of the equation. You need to compute the constant that keeps this equation valid. 
+
+
+
+
+
+\section{ABC Identity}
+Prove the identity 
+\[
+\sum_{a+b+c=n} a {n \choose a,b,c} = n ~ 3^{n-1}
+\]
+where the sum is taken over all triples $(a,b,c)$ of nonnegative integers satisfying $a+b+c=n$. 
+See hints:
+%See Section 4.2 multinomial coefficients. Try a similar combinatorial proof as in Problem \ref{sec:identity}. Another possible non-combinatorial method is described in Section 4.1.
+
+
+
+\section{Expansion}
+Compute the expansion of $(1-x)^{-2}$ by hand. 
+(You don't need to show your work.) 
+See hints:
+%See Example 4.16, Section 4.3.
+
+
+\section{Schedule}
+Suppose you have to do exactly twelve work shifts at the bookstore (which is only open Monday through Friday) each week. 
+Due to your other commitments, you must work 
+at least 3 shifts on Monday, 
+at least 2 shifts on Wednesday, and 
+at least 1 shift on Friday.
+
+\begin{enumerate}[a.]
+    \item In how many ways can you do this?
+    \item Suppose you have one more restriction. Because you are very busy on Tuesday, you can work at most one shift on Tuesday. In how many ways can you arrange your work schedule? 
+\end{enumerate}
+
+See hints:
+%See Section 5.1. See the proof for the number of weak compositions of $n$ into $k$ parts, Theorem 5.2.
+
+
+
+
+
+\section{Parts larger than $2$ (find a recurrence relation)}
+Let $A_0=1$, and $A_1=A_2=0$.
+For $n \geq 3$, let $A_n$ be the number of compositions of $n$ such that each part is larger than $2$, that is, compositions $(a_1, a_2, \dots, a_k)$ such that $a_1+a_2+ \dots + a_k = n$ and $a_i \geq 3$ for all $i$. 
+(For example, $A_3=A_4=A_5=1$, $A_6=2$, $A_7=3$, and $A_8=4$, and $A_9=6$.) 
+
+Guess a recurrence relation expressing $A_n$ using earlier terms in this sequence, and prove the recurrence relation. 
+
+
+\noindent See hints:
+%See Section 5.1. Break into cases: The last part is either equal to $3$ or larger than $3$ (in which case it can be decreased by $1$. 
+
+
+
+
+
+
+\section{Sum of the first parts (find a closed-form expression)}
+For a positive integer $n$, let $S_n$ be the sum of the first part of all compositions of $n$.
+For example, $S_1=1$, $S_2=3$, $S_3=7$, and $S_4=15$.
+Find and prove an explicit (closed-form expression) formula for $S_n$. 
+
+See hints:
+%See Section 5.1. Guess a formula by looking at the first four terms of the sequence. If you want to use induction, first prove that $S_{n+1}=2 S_n + 1$. Read the combinatorial proof of Corollary 5.4, page 103.
+
+
+
+
+\section{Write Your Own Problem}\label{sec:write_your_own}
+Please write a problem with reasonable difficulty and solve it using theorems or concepts from Chapter 4 or Section 5.1 of Bona. Students' problems may be chosen for future exams' questions. 
+
+
+\section{Miscellaneous}
+\begin{enumerate}[i.]
+    \item Briefly summarize your team work process and experience. 
+    \item Approximately how much time did you spend on this homework?
+\end{enumerate}
+
+\end{document}

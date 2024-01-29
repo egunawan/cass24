@@ -28,6 +28,7 @@ document.write(today);
 
 ## Schedule 
 
+Time_ | Event_
 :---    |:--
 8:00-9:00 | Breakfast (Monteith 401)
 |---

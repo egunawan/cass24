@@ -43,7 +43,7 @@ Week_ | Date_| Day_ |  Assessment_| Topics
 
 
 
-Time_ | Event_
+Time | Event
 :---    |:--
 8:00-9:00 | Breakfast (Monteith 401)
 |---

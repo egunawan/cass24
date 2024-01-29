@@ -33,21 +33,21 @@ document.write(today);
 
 
 
-Time | Event
-:---    |:--
-8:00-9:00 | Breakfast (Monteith 401)
+Time || Event
+:---    ||:--
+8:00-9:00 || Breakfast (Monteith 401)
 |---
-9:00-10:00 | Schiffler
+9:00-10:00 || Schiffler
 |---
-10:30-11:30 | Gunawan
+10:30-11:30 || Gunawan
 |---
-11:30-1:00 | Lunch (Monteith 401)
+11:30-1:00 || Lunch (Monteith 401)
 |---
-1:00-2:00 | Weng
+1:00-2:00 || Weng
 |---
-2:30-3:30 | Serhiyenko
+2:30-3:30 || Serhiyenko
 |---
-3:30-4:00 | Coffee (Monteith 401)
+3:30-4:00 || Coffee (Monteith 401)
 |---
-4:00-5:00 | Discussion
+4:00-5:00 || Discussion
 {: rules="groups"}

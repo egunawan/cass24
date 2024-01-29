@@ -8,4 +8,4 @@ layout: default
 
 ### Organizers:
 
-[https://www.uml.edu/sciences/mathematics/people/gunawan-emily.aspx](Emily Gunawan) and [https://schiffler.math.uconn.edu/](Ralf Schiffler)
+[Emily Gunawan](https://www.uml.edu/sciences/mathematics/people/gunawan-emily.aspx) and [Ralf Schiffler](https://schiffler.math.uconn.edu/)

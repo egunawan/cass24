@@ -1,6 +1,6 @@
 ---
 title: Housing and local information
-category: default
+category: housing
 layout: default
 ---
 

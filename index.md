@@ -7,11 +7,11 @@ layout: default
 # Courses
 
 + Ralf Schiffler (University of Connecticut)
-    * Title
+    * Cluster algebras and knot theory
 + Emily Gunawan (University of Massachusetts Lowell)
-    * Title
+    * Maximal almost rigid modules
 + Daping Weng (University of California at Davis) 
     * Cluster algebras and Legendrian links
 + Khrystyna Serhiyenko (University of Kentucky) 
-    * Cluster structure on Richardson varieties and their categorification
+    * Cluster structures on Richardson varieties and their categorification
 

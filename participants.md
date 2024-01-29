@@ -6,5 +6,6 @@ layout: default
 
 # Participants
 
+<!--
 * FirstName LastName (UConn)
-* FirstName LastName (Brandeis)
+-->

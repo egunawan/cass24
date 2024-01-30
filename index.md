@@ -6,7 +6,7 @@ layout: default
 
 # Courses
 
-![Huskies](http://clusteralgebra2017.springschool.math.uconn.edu/wp-content/uploads/sites/1922/2016/09/monteithbldg-400x242.jpg "Monteith building"){:height="100px"}
+![Huskies](http://clusteralgebra2017.springschool.math.uconn.edu/wp-content/uploads/sites/1922/2016/09/monteithbldg-400x242.jpg "Monteith building"){:height="200px"}
 
 
 + Khrystyna Serhiyenko (University of Kentucky) 

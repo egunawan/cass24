@@ -22,5 +22,5 @@ All classes are in Monteith 420.
 
 This event is supported by the National Science Foundation.
 
-![NSF logo](NSF_Official_logo_High_Res_1200ppi.png "NSF logo"){:height="10px"}
+![NSF logo](NSF_Official_logo_High_Res_1200ppi.png "NSF logo"){:height="40px"}
 

@@ -13,4 +13,4 @@ Check In/Out Times (tentative): Guests are asked to check in after 2:00pm on sch
 
 Breakfast and lunch will be provided at Monteith Monday through Friday.
 
-For dinner, Storrs downtown is is 10 minutes on foot​ and has several restaurants and groceries. and has several restaurants and groceries.
+For dinner, [downtown Storrs](https://www.downtownstorrs.org) is10 minutes away on foot​ and has several restaurants and groceries. and has several restaurants and groceries.

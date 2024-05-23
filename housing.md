@@ -10,9 +10,11 @@ All participants will stay at a UConn residence hall, address TBA.
 Main Telephone: TBA
 
 Getting to UConn:
-* [Airports](https://transpo.uconn.edu/airports/)
-* [Visit UConn: Getting Here](https://partnerships.global.uconn.edu/visit-uconn-global/visit-uconn-getting-here/)
-* Rideshare services such as Uber and Lyft
+* The closest airport is BDL in Hartford. There are train and bus services to Hardford. There are also bus services to Storrs (less frequent). 
+* Some helpful website: 
+    * [Airports](https://transpo.uconn.edu/airports/)
+    * [Visit UConn: Getting Here](https://partnerships.global.uconn.edu/visit-uconn-global/visit-uconn-getting-here/)
+* Some participants may want to share a Rideshare service (such as Uber and Lyft) to go from Storrs to BDL.
 
 
 Check In/Out Times: Guests are asked to check in after 2:00pm on scheduled date of arrival (Sunday, June 16) and check out by 12:00pm on scheduled date of departure (Saturday, June 22). 

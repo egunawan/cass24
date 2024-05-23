@@ -7,10 +7,16 @@ layout: default
 # Housing and local information: 
 
 All participants will stay at a UConn residence hall, address TBA.
-Main Telephone: TBA | Fax: TBA
+Main Telephone: TBA
 
-Check In/Out Times (tentative): Guests are asked to check in after 2:00pm on scheduled date of arrival and check out by 12:00pm on scheduled date of departure. 
+Getting to UConn:
+* [Airports](https://transpo.uconn.edu/airports/)
+* [Visit UConn: Getting Here](https://partnerships.global.uconn.edu/visit-uconn-global/visit-uconn-getting-here/)
+* Rideshare services such as Uber and Lyft
 
-Breakfast and lunch will be provided at Monteith Monday through Friday.
+
+Check In/Out Times: Guests are asked to check in after 2:00pm on scheduled date of arrival (Sunday, June 16) and check out by 12:00pm on scheduled date of departure (Saturday, June 22). 
+
+Breakfast and lunch will be provided at Monteith Monday through Friday. Please fill out the dietary needs survey (sent via email) if you haven't!
 
 For dinner, [downtown Storrs](https://www.downtownstorrs.org) is10 minutes away on foot​ and has several restaurants and groceries. 

@@ -6,7 +6,7 @@ layout: default
 
 # Housing and local information: 
 
-All participants will stay at a UConn Snow Hall in South campus. 
+All participants will stay at a UConn Snow Hall in South campus. Housing is provided by the National Science Foundation.
 * Check In Times: Guests are asked to check in after 2:00pm on scheduled date of arrival (Sunday, June 16). 
   (If you check in after 11pm you can call at 860-377-7020.
   If you arrive on Monday from 7-9am you can call 860-486-5780.)

@@ -6,7 +6,7 @@ layout: default
 
 # About
 
-Pending funding, the Cluster Algebras Summer School will take place at the University of Connecticut on Monday June 17 to Friday June 21, 2024.
+The Cluster Algebras Summer School will take place at the University of Connecticut on Monday June 17 to Friday June 21, 2024.
 
 The school is intended for graduate and advanced undergraduate students with research interest in cluster algebras.
 

@@ -5,9 +5,6 @@ layout: default
 ---
 
 
-Please refresh this page at each visit.
-
-Welcome! Today is 
 <script>
 <!-- Begin
 var now = new Date();

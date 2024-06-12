@@ -15,7 +15,7 @@ layout: default
 4. Marie-Anne	Bourgie	(Université Laval)
 5. Amanda	Burcroff	(Harvard University)
 6. David	Carlip	(Reed College)
-7 Qiyue	Chen	(University of Minnesota)
+7. Qiyue	Chen	(University of Minnesota)
 8. Pranjal	Dangwal	(University of Minnesota)
 9. Swati	Gaba	(University of Connecticut)
 10. Ben	Grant		(University of Connecticut)

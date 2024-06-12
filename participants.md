@@ -38,7 +38,7 @@ layout: default
 7. Amanda	Schwartz	(University of Michigan)
 8. Yuxuan	Sun		(University of Minnesota)
 9. Michele	Tienni	(Yale University)
-10 David	Whiting	(Michigan State University)
+10. David	Whiting	(Michigan State University)
 1. Haihan	Wu		(University of California, Davis)
 			
 			

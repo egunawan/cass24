@@ -18,6 +18,8 @@ layout: default
 + Ralf Schiffler (University of Connecticut)
     * Cluster algebras and knot theory    
     
+[Lecture notes](cass2024notes_Kierkosz.pdf), courtesy of Illya Kierkosz
+    
 All classes are in Monteith 420.
 
 This event is supported by the National Science Foundation. ![NSF logo](NSF_Official_logo_High_Res_1200ppi.png "NSF logo"){:height="40px"}
